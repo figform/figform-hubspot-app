@@ -1,0 +1,31 @@
+{
+  "uid": "figform",
+  "type": "app",
+  "config": {
+    "name": "FigForm",
+    "description": "Design beautiful external forms in FigForm, then securely submit responses to HubSpot forms without rebuilding your layouts.",
+    "distribution": "marketplace",
+    "auth": {
+      "type": "oauth",
+      "redirectUrls": ["https://api.figform.com/hubspot/callback"],
+      "requiredScopes": [
+        "oauth",
+        "crm.objects.companies.read",
+        "crm.objects.contacts.read",
+        "forms"
+      ],
+      "optionalScopes": [],
+      "conditionallyRequiredScopes": []
+    },
+    "permittedUrls": {
+      "fetch": ["https://api.hubapi.com"],
+      "iframe": [],
+      "img": []
+    },
+    "support": {
+      "supportEmail": "support@figform.com",
+      "documentationUrl": "https://figform.com/help-hubspot-integraiton",
+      "supportUrl": "https://figform.com/contact"
+    }
+  }
+}
