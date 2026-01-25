@@ -7,7 +7,10 @@
     "distribution": "marketplace",
     "auth": {
       "type": "oauth",
-      "redirectUrls": ["https://api.figform.com/hubspot/callback"],
+      "redirectUrls": [
+        "http://localhost:4000/hubspot/callback",
+        "https://api.figform.com/hubspot/callback"
+      ],
       "requiredScopes": [
         "oauth",
         "crm.objects.companies.read",
@@ -24,7 +27,7 @@
     },
     "support": {
       "supportEmail": "support@figform.com",
-      "documentationUrl": "https://figform.com/help-hubspot-integraiton",
+      "documentationUrl": "https://figform.com/help-hubspot-integration",
       "supportUrl": "https://figform.com/contact"
     }
   }
