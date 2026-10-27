@@ -10,8 +10,7 @@
       "redirectUrls": [
         "http://localhost:3000/api/hubspot/callback",
         "http://localhost:4000/hubspot/callback",
-        "https://api.figform.com/hubspot/callback",
-        "https://api-next.figform.com/hubspot/callback"
+        "https://api.figform.com/hubspot/callback"
       ],
       "requiredScopes": [
         "oauth",
